@@ -22,7 +22,7 @@ print('-----------------------')
 # Parameters: book_title (string)
 # Return: Not needed for this function
 def check_out(book_title):
-    books.remove()
+    books.remove(book_title)
 
 # 1.4 TODO: Check out 'SAPIENS' using the check_out function
 check_out('SAPIENS')
